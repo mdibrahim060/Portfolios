@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohd Ibrahim | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/profile-pic-2.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+
+<body>
+
+
+    <header class="container">
+        <nav class="nav_bar">
+            <!-- <img src="images/md_logo.png" class="nav-logo" alt="Nav Logo"> -->
+            <img src="images/fdsa.png" class="nav-logo" alt="Nav Logo">
+
+
+            <ul id="sidemenu">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Portfolio">My Work</a></li>
+                <li><a href="#contactus">Contact Us</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </header>
+
+
+
+
+    <!-- Home -->
+    <main id="Home" class="intro-container">
+        <div class="intro">
+            <p class="big-para">UI/UX Designer</p> <br>
+            <h1>Hi , I'm <span style="color: #007BFF;"> Mohd Ibrahim</span> From <span
+                    style="color: #548cc7;">Delhi</span>,India</h1> <br>
+
+            <p class="intro-para">A creative developer passionate about clean and user-friendly design.</p>
+        </div>
+
+        <div class="intro-img">
+            <img src="images/profile-img.png" alt="About profile image">
+        </div>
+    </main>
+
+
+
+    <!-- About me  -->
+
+    <div id="About" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/imggg.png" alt="About image">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2> <br>
+                    <p>
+                        Hi, I’m a passionate <span class="abt-txt-decor">Web Developer </span>who loves turning ideas
+                        into fully functional, responsive, and interactive websites.
+                        I specialize in <span class="abt-txt-decor">custom UI design</span>, crafting clean and modern
+                        interfaces that focus on both <span class="abt-txt-decor">visual appeal</span> and <span
+                            class="abt-txt-decor">user experience</span> I ensure that every project I work on is
+                        optimized for performance, accessible across devices, and aligned with the latest web standards.
+                        My goal is to transform creative ideas into seamless digital experiences that leave a lasting
+                        impact.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br> Designing Web/App interfaces </li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025 - Current</span><br> Internship <span class="from-txt">in</span> <span>
+                                    AskTek</span> </li>
+                            <!-- <li><span>2024 - 2025</span><br>Diploma UI/UX Designs in <span>DICS Institute</span> </li> -->
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+
+                            <li><span>2025 - Current</span><br>Persuing B.A Programme <span class="from-txt">From</span>
+                                <span>School of Open Learning,
+                                    Delhi University</span>
+                            </li>
+
+                            <li><span>2023</span><br> High School PassOut <span class="from-txt">from</span> <span> SBBM
+                                    Govt. Sarvodaya Vidyalaya,Delhi</span> </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Services section  -->
+
+    <div id="Services" class="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Crafting clean, modern, and user-friendly website layouts that blend creativity with
+                        functionality for an engaging online experience.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Designing intuitive and engaging interfaces that focus on seamless user experiences and visually
+                        appealing layouts.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>APP Design</h2>
+                    <p>Creating modern, user-friendly app interfaces that combine functionality with a seamless and
+                        engaging user experience.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Portfolio work section  -->
+
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="work 1st image">
+                    <div class="layer">
+                        <h3>Web Development</h3>
+                        <p>Building fast, responsive, and dynamic websites with clean code and modern technologies to
+                            deliver seamless digital experiences.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-2.png" alt="work 2st image">
+                    <div class="layer">
+                        <h3>UI/UX Development</h3>
+                        <p>Building fast, responsive, and dynamic websites with clean code and modern technologies to
+                            deliver seamless digital experiences.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-3.png" alt="work 3st image">
+                    <div class="layer">
+                        <h3>APP Development</h3>
+                        <p>Building fast, responsive, and dynamic websites with clean code and modern technologies to
+                            deliver seamless digital experiences.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+
+    <!-- contact section  -->
+
+    <div id="contactus" class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+
+                    <h1 class="sub-title">Contact Me</h1>
+
+                    <p> <i class="fa-solid fa-envelope"></i> mdibrahim0604612@exmple.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> +91 9870339859</p>
+
+                    <div class="social-icons">
+                        
+                        <a href="https://www.facebook.com/profile.php?id=100079021929089" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+
+                        <a href="https://x.com/?lang=en" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.instagram.com/i.b.r.a.him._/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/aj-khan-9a2058365/" target="_blank"><i class="fa-brands fa-square-linkedin"></i></a>
+                    </div>
+
+                    <a href="images/Mohd Ibrahim Cv.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form action="post" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea> </textarea>
+
+                         <!-- popup msg  -->
+                        <span id="submited-msg-poppu"></span>
+
+                        <button type="submit" class="btn btn2"> Submit </button>
+                    </form>
+
+                    
+
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &copy; Made by Mohd Ibrahim. </p>
+        </div>
+
+    </div>
+
+
+    <script src="js/script.js"></script>
+
+    <!-- google sheet link  -->
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzR2o4ul6v4f71iYiVjkYAOiJlYxBw66GRlBc_CA7IBlBiB62Jp-OUunR_msXiH3oCC1g/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        const popup = document.getElementById("submited-msg-poppu")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    popup.innerHTML = "Message! Sent successfully"
+                    setTimeout(function(){
+                        popup.innerHTML = ""
+                    }, 1000)
+                    form.reset()
+                } )
+
+
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+
+</html>
