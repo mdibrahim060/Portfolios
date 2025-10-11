@@ -13,15 +13,29 @@ function opentab(tabname) {
 }
 
 
-// Hamburger
-
+// Hamburger old 
 
 var sidemenu = document.getElementById("sidemenu");
 
 function openmenu() {
     sidemenu.style.right = "0";
 }
+
 function closemenu() {
     sidemenu.style.right = "-200px";
 }
 
+
+const hamburgerIcon = document.getElementById('hamburger-icon');
+
+document.addEventListener('click', function (event) {
+
+    const isClickInsideMenu = sidemenu.contains(event.target);
+
+    const isClickOnHamburger = hamburgerIcon.contains(event.target);
+
+    if (sidemenu.style.right === '0px' && !isClickInsideMenu && !isClickOnHamburger) {
+       
+        closemenu();
+    }
+});

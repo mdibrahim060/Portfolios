@@ -28,7 +28,7 @@
                 <li><a href="#contactus">Contact Us</a></li>
                 <i class="fas fa-times" onclick="closemenu()"></i>
             </ul>
-            <i class="fas fa-bars" onclick="openmenu()"></i>
+            <i id="hamburger-icon" class="fas fa-bars" onclick="openmenu()"></i>
         </nav>
     </header>
 
@@ -256,7 +256,8 @@
     <!-- google sheet link  -->
 
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbzR2o4ul6v4f71iYiVjkYAOiJlYxBw66GRlBc_CA7IBlBiB62Jp-OUunR_msXiH3oCC1g/exec'
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx3tlWgSJdxlKCPM7gnMh9I_x-3VlFKDQtzLt2R07fk8QwjlRFb4BvsQHq3eFvZ9V-vgQ/exec'
+        
         const form = document.forms['submit-to-google-sheet']
 
         const popup = document.getElementById("submited-msg-poppu")

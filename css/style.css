@@ -475,7 +475,8 @@ form .btn2 {
 
   
     .nav_bar ul#sidemenu {
-        background: #007BFF;      
+        background: rgba(0, 123, 255, 0.7);   
+       
         position: fixed;
         top: 0;
         right: -200px;           
